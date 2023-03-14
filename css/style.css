@@ -1,90 +1,107 @@
-body{
-background:#fff;
-color:#4d4d4d;
-font-size: 18px;
-font-family:'Poppins'
-}
-header{
-    background:#ececec;
-    padding-top:15px;
-    padding-bottom: 15px;  
-}
-ul{
-    padding: 15px;
+body {
+    background: #fff;
+    color: #4d4d4d;
+    font-size: 18px;
+    font-family: 'Poppins';
 }
 
-li{
+header {
+    background: #ececec;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+li {
     display: inline;
     color: #4d4d4d;
     font-size: 18px;
     font-weight: regular;
     list-style-type: none;
-    padding-right: 15px;
-    padding-left: 15px;
     border-right: 1px solid #4d4d4d;
     text-decoration: none;
 }
-ul a{
+
+ul a {
     color: #4d4d4d;
 }
-ul a:hover{
+
+ul a:hover {
     text-decoration: none;
     color: #4d4d4d;
-    
-}   
-    
-
-.imgg{
-  background-image: url("/images/banner.jpg");
-  min-height : 444px;
- background-size: contain;
- background-repeat: no-repeat;
-  
- 
 
 }
-.bann-text{
+
+
+.imgg {
+    width: 100%;
+    min-height: 444px;
+
+}
+.banner{
+    position: relative;
+    text-align: center;
+}
+
+.banner-text {
+    
     font-weight: 600;
-    font-size : 48px;
+    font-size: 48px;
     color: #fff;
-    margin-top: 6%;
+ 
+  
+    /* margin-top: 6%; */
 
 }
-.bann-button{
+.banner-div{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.banner-button {
     font-weight: 600;
     color: #d52037;
-    font-size : 24px;
+    font-size: 24px;
+    
+   
+ 
 }
-section{
+
+section {
     font-size: 36px;
     color: #d52037;
-font-weight : 600;
+    font-weight: 600;
 
 
 }
 
-.submit{
-    background-color : #db1e36;
+.submit {
+    background-color: #db1e36;
     font-size: 18px;
     font-weight: regular;
-    width:100px;
+    width: 100px;
     color: white;
 }
 
-footer{
-    background-color : #cecece;
-font-size: 16px;
-text-align: center;
+footer {
+    background-color: #cecece;
+    font-size: 16px;
+    text-align: center;
 }
-.mod-spec{
+
+.mod-spec {
 
     background-color: #fff;
     color: #4d4d4d;
 }
-.mod-head{
-background-color : #db1e36;
- font-size: 24px;
-  color : #fff;
- font-weight: 400;
+
+.mod-head {
+    background-color: #db1e36;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
 
 }
